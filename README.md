@@ -60,7 +60,7 @@ Native VIDEO standardizer. Automatically syncs with the input profile wirelessly
 1. Clone or copy this repository into your `ComfyUI/custom_nodes/` directory:
    ```bash
    cd ComfyUI/custom_nodes/
-   git clone [https://github.com/UCHIJ/ComfyUI-BroadcastResolutions.git](https://github.com/UCHIJ/ComfyUI-BroadcastResolutions.git)
+   git clone https://github.com/UCHIJ/ComfyUI-BroadcastResolutions.git
 
 3. Restart ComfyUI.
 
