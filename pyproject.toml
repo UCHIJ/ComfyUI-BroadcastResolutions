@@ -9,12 +9,12 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = "https://github.com/UCHIJP/ComfyUI-BroadcastResolutions"
-Documentation = "https://github.com/UCHIJP/ComfyUI-BroadcastResolutions#readme"
-"Bug Tracker" = "https://github.com/UCHIJP/ComfyUI-BroadcastResolutions/issues"
+Repository = "https://github.com/UCHIJ/ComfyUI-BroadcastResolutions"
+Documentation = "https://github.com/UCHIJ/ComfyUI-BroadcastResolutions#readme"
+"Bug Tracker" = "https://github.com/UCHIJ/ComfyUI-BroadcastResolutions/issues"
 
 [tool.comfy]
-PublisherId = "UCHIJP"
+PublisherId = "uchij"
 DisplayName = "Broadcast Video Profile Suite"
 Icon = ""
 includes = []
