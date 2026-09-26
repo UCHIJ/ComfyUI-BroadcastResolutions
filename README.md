@@ -1,3 +1,4 @@
+<img width="1080" height="400" alt="broadcastresolutions_cover-wide" src="https://github.com/user-attachments/assets/5d2dc727-fe49-44a3-a0dc-bd2add699cf1" />
 
 # Broadcast Resolutions for ComfyUI
 
