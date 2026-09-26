@@ -1,7 +1,7 @@
 
 # Broadcast Resolutions for ComfyUI
 
-A drop-in custom node suite built for video editors, motion designers, and creators to force AI-generated video onto **real broadcast, social, and cinema delivery standards** without manual dimension math or messy canvas wires.
+A drop-in custom node suite built for video editors, motion designers, and creators to match AI-generated video to **real broadcast, social, and cinema delivery standards** without manual dimension math or messy canvas wires.
 
 ---
 
