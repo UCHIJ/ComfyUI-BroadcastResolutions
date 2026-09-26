@@ -1,15 +1,19 @@
 
 # Broadcast Resolutions for ComfyUI
 
-A drop-in custom node suite built for video editors, motion designers, and creators to match AI-generated video to **real broadcast, social, and cinema delivery standards** without manual dimension math or messy canvas wires.
+A drop-in custom node suite built for video editors, motion designers, and creators. Generating video with modern AI models shouldn’t require advanced math just to produce a standard frame. Rigid requirements for pixel alignment and megapixel limits can lead to broken latents, CUDA crashes, and unexpected output sizes.
+
+This node pack handles the resolution math automatically, letting you generate clean 4K, 1080p, 720p, and SD video using familiar formats—without worrying about tensor dimensions or sampler errors.
+
+Why It Happens:
+Modern video diffusion models (LTX, MiniMax, Hunyuan, CogVideo) require frame dimensions strictly divisible by 8, 16, 32, or 64. Because native delivery standards like 1080p or DCI Flat violate these strict macroblock rules, standard samplers either crash outright or output off-spec pixel bounds.
 
 ---
 
-## The Problem
+**This node suite solves that seamlessly in two steps:**
 
-Video diffusion models (LTX, MiniMax, Hunyuan, CogVideo) require latent tensor dimensions divisible by 8, 16, 32, or 64. Because pure broadcast and cinema standards like 1080p ($1920 \times 1080$) or DCI Flat ($3996 \times 2160$) aren't always divisible by model requirements, samplers often crash or output non-standard frame sizes.
+<img width="1488" height="400" alt="broadcast-pullout" src="https://github.com/user-attachments/assets/09aac70a-1cc2-4a84-867c-c2aa8341b646" />
 
-This node suite solves that seamlessly in two steps:
 1. **Input Stage (`Broadcast Resolution (input)`):** Computes your true target broadcast or DCI standard, snaps dimensions *up* to the nearest model-safe multiple so the sampler never crashes, and passes the true target down the pipeline wirelessly.
 2. **Delivery Stage (`Broadcast Resolution (output)`):** Automatically crops, letterboxes, or scales the output video back to the exact target standard right before export.
 
