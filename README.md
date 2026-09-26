@@ -15,6 +15,7 @@ Modern video diffusion models (LTX, MiniMax, Hunyuan, CogVideo) require frame di
 <img width="1488" height="400" alt="broadcast-pullout" src="https://github.com/user-attachments/assets/09aac70a-1cc2-4a84-867c-c2aa8341b646" />
 
 1. **Input Stage (`Broadcast Resolution (input)`):** Computes your true target broadcast or DCI standard, snaps dimensions *up* to the nearest model-safe multiple so the sampler never crashes, and passes the true target down the pipeline wirelessly.
+
 2. **Delivery Stage (`Broadcast Resolution (output)`):** Automatically crops, letterboxes, or scales the output video back to the exact target standard right before export.
 
 ---
