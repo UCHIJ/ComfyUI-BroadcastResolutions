@@ -63,6 +63,9 @@ app.registerExtension({
         // 1. CONFORM VIDEO TO RESOLUTION (Output Preview — true broadcast target)
         // =================================================================
         if (node.comfyClass === "ConformVideoToResolution") {
+            if (node._broadcastSuiteInit) return;
+            node._broadcastSuiteInit = true;
+
             node.drawBadges = function () {};
 
             const outputWidget = node.addWidget("text", "output_preview", "---", () => {}, {
@@ -72,12 +75,6 @@ app.registerExtension({
                 outputWidget.inputEl.readOnly = true;
                 outputWidget.inputEl.style.opacity = "0.85";
                 outputWidget.inputEl.style.textAlign = "center";
-            }
-
-            const pIdx = node.widgets.indexOf(outputWidget);
-            if (pIdx > 0) {
-                node.widgets.splice(pIdx, 1);
-                node.widgets.unshift(outputWidget);
             }
 
             const updateOutputPreview = () => {
@@ -96,6 +93,8 @@ app.registerExtension({
         // 2. CONVERT TO BROADCAST RESOLUTION (Input Preview — model-facing size)
         // =================================================================
         if (node.comfyClass !== "ConvertToBroadcastResolution") return;
+        if (node._broadcastSuiteInit) return;
+        node._broadcastSuiteInit = true;
 
         node.drawBadges = function () {};
 
