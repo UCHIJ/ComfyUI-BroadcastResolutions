@@ -1,0 +1,28 @@
+{
+  "resolutions": {
+    "SD NTSC":  [720, 480],
+    "SD PAL":   [720, 576],
+    "HD 720p":  [1280, 720],
+    "HD 1080p": [1920, 1080],
+    "UHD 4K":   [3840, 2160],
+    "5K UHD":   [5120, 2880],
+    "UHD 8K":   [7680, 4320]
+  },
+  "aspect_ratios": {
+    "16:9  Widescreen (YouTube)":                [16, 9],
+    "9:16  Vertical (Reels / TikTok / Shorts)":  [9, 16],
+    "1:1   Square (Instagram / Universal)":      [1, 1],
+    "4:3   Standard (legacy TV)":                [4, 3],
+    "3:4   Vertical (legacy photo/grid)":        [3, 4],
+    "4:5   Instagram Feed Portrait":             [4, 5],
+    "Flat (1.85:1 cinema widescreen)":           [1.85, 1],
+    "Scope (2.39:1 cinema widescreen)":          [2.39, 1]
+  },
+  "cinema_delivery": {
+    "None":                        null,
+    "DCI 2K Flat \u2014 1998\u00d71080":  [1998, 1080],
+    "DCI 4K Flat \u2014 3996\u00d72160":  [3996, 2160],
+    "DCI 2K Scope \u2014 2048\u00d7858":  [2048, 858],
+    "DCI 4K Scope \u2014 4096\u00d71716": [4096, 1716]
+  }
+}

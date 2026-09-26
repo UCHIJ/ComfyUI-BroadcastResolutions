@@ -1,0 +1,20 @@
+[project]
+name = "comfyui-broadcast-resolutions"
+description = "Professional broadcast and social platform resolution delivery suite for ComfyUI video workflows."
+version = "1.0.0"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://github.com/UCHIJP/ComfyUI-BroadcastResolutions"
+Documentation = "https://github.com/UCHIJP/ComfyUI-BroadcastResolutions#readme"
+"Bug Tracker" = "https://github.com/UCHIJP/ComfyUI-BroadcastResolutions/issues"
+
+[tool.comfy]
+PublisherId = "UCHIJP"
+DisplayName = "Broadcast Video Profile Suite"
+Icon = ""
+includes = []
