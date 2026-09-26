@@ -1,3 +1,4 @@
+
 # Broadcast Resolutions for ComfyUI
 
 A drop-in custom node suite built for video editors, motion designers, and creators to force AI-generated video onto **real broadcast, social, and cinema delivery standards** without manual dimension math or messy canvas wires.
@@ -25,8 +26,11 @@ This node suite solves that seamlessly in two steps:
 └─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─► [Broadcast Resolution (output)] ─► Save Video
 
 ```
-
 ---
+
+<img width="1919" height="903" alt="broadcast-workflow" src="https://github.com/user-attachments/assets/91e615a4-9422-4201-9e65-f0fbb2e662db" />
+
+
 
 ## Nodes
 
@@ -80,7 +84,6 @@ git clone https://github.com/UCHIJ/ComfyUI-BroadcastResolutions.git
 
 ```
 
-
 2. Restart ComfyUI.
 3. Find the nodes under the `Broadcast Video Profile` category.
 
@@ -88,12 +91,4 @@ git clone https://github.com/UCHIJ/ComfyUI-BroadcastResolutions.git
 
 ## Credits
 
-Built by UCHIJP
-
-## License
-
-MIT — see [LICENSE] for details.
-
-```
-
-```
+Built by, UCHIJ
