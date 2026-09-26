@@ -72,6 +72,6 @@ Built by UCHIJP
 
 ## License
 
-MIT — see [LICENSE] for details.
+MIT
 
 
