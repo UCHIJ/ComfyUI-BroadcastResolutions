@@ -28,7 +28,8 @@ This node suite solves that seamlessly in two steps:
 ```
 ---
 
-<img width="1919" height="903" alt="broadcast-workflow" src="https://github.com/user-attachments/assets/91e615a4-9422-4201-9e65-f0fbb2e662db" />
+<img width="1919" height="903" alt="broadcast-workflow" src="https://github.com/user-attachments/assets/c12120e9-143c-4d4e-bfb9-a9e41e660031" />
+
 
 
 
