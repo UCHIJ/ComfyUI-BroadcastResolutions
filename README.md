@@ -99,6 +99,12 @@ git clone https://github.com/UCHIJ/ComfyUI-BroadcastResolutions.git
 
 ---
 
+**Workflow Example**
+
+<img width="1920" height="857" alt="Screenshot from 2026-09-27 06-21-15" src="https://github.com/user-attachments/assets/e24b8319-e488-46e5-94c8-ed16e7490faa" />
+
+
+
 ## Credits
 
 Built by, UCHIJ
