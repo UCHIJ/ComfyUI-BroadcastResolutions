@@ -91,13 +91,16 @@ Resolution presets, aspect ratios, and cinema container sizes are managed via `b
 ```bash
 cd ComfyUI/custom_nodes/
 git clone https://github.com/UCHIJ/ComfyUI-BroadcastResolutions.git
+```
 
+Or install with [Comfy CLI](https://docs.comfy.org/comfy-cli/getting-started#install-cli):
+
+```bash
+comfy node install comfyui-broadcast-resolutions
 ```
 
 2. Restart ComfyUI.
 3. Find the nodes under the `Broadcast Video Profile` category.
-
----
 
 **Workflow Example**
 
