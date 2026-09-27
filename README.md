@@ -73,8 +73,11 @@ Native VIDEO standardizer. Automatically syncs with the input profile wirelessly
 **Outputs:**
 
 * `video` (VIDEO) — Scaled and framed native video stream matching the true target broadcast resolution.
-
 ---
+
+
+https://github.com/user-attachments/assets/7ffe33e2-8885-4787-ae2c-eee86b09d56b
+
 
 ## Configuration (`broadcast_profiles.json`)
 
